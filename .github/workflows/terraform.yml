@@ -18,8 +18,8 @@ jobs:
 
     defaults:
       run:
-        shell: bash
-        working-directory:
+          shell: bash
+           working-directory: .
 
     steps:
     - name: Checkout
